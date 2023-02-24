@@ -25,7 +25,7 @@ public class Task_5 {
 
         public void withdraw(double amount) throws Exception {
             if (amount > balance) {
-                throw new Exception("No strings containing the word you are looking for were found.");
+                throw new Exception("Insufficient funds in the account.");
             }else{
                 System.out.println("The transaction can be performed.");
             }
