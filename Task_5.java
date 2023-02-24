@@ -25,9 +25,9 @@ public class Task_5 {
 
         public void withdraw(double amount) throws Exception {
             if (amount > balance) {
-                throw new Exception("Недостаточно средств на счете.");
+                throw new Exception("No strings containing the word you are looking for were found.");
             }else{
-                System.out.println("Транзакцию можно выполнить.");
+                System.out.println("The transaction can be performed.");
             }
             balance -= amount;
         }

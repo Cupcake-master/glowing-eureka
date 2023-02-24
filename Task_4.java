@@ -14,11 +14,11 @@ public class Task_4 {
             }
 
             if (!found) {
-                throw new Exception("Не найдено строк, содержащих искомое слово.");
+                throw new Exception("No strings containing the word you are looking for were found.");
             }
 
         } catch (Exception e) {
-            System.out.println("Не найдено строк, содержащих искомое слово.");
+            System.out.println("No strings containing the word you are looking for were found.");
         }
     }
 }
