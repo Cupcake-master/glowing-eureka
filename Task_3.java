@@ -7,8 +7,8 @@ public class Task_3 {
     }
 
     public static void findMaxIncreasingSubarray(int[] arr) {
-        int maxLength = 1; // максимальная длина подмассива, начинающегося с первого элемента
-        int currentLength = 1; // длина текущего подмассива
+        int maxLength = 1;
+        int currentLength = 1;
 
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > arr[i - 1]) {
